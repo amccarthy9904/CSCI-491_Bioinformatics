@@ -1,0 +1,270 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0056)http://fasta.bioch.virginia.edu/fasta_www2/fasta_www.cgi -->
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US"><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>SSEARCH results</title>
+<script src="./SSEARCH results_files/align_hide.js.download" type="text/javascript"></script>
+
+</head>
+<body>
+<!-- DONE -->
+
+<hr>
+<center>
+<a href="http://fasta.bioch.virginia.edu/fasta_www2/fasta_www.cgi">Search Databases with FASTA</a> | 
+<a href="http://fasta.bioch.virginia.edu/fasta_www2/fasta_www.cgi?rm=lalign">Find Duplications</a> | 
+<a href="http://fasta.bioch.virginia.edu/fasta_www2/fasta_www.cgi?rm=status">Search Status</a> 
+</center>
+<hr>
+<style>
+.box {display: inline-block; width: 20px; height: 9px; margin: 1px;}
+span.c_0 { background-color:slategrey;}
+span.c_1 { background-color:lightgreen;}
+span.c_2 { background-color:lightblue;}
+span.c_3 { background-color:pink;}
+span.c_4 { background-color:cyan;}
+span.c_5 { background-color:tan;}
+span.c_6 { background-color:gold;}
+span.c_7 { background-color:plum;}
+span.c_8 { background-color:mediumplum;}
+
+#footer {
+ position:fixed;
+ left:0px;
+ bottom:0px;
+ height:16px;
+ width:100%;
+ background:tan;
+ text-align:center;
+ font-size:14px;
+ font-family:sans-serif;
+}
+
+/* IE 6 */
+* html #footer {
+  position:absolute;
+  top:expression((0-(footer.offsetHeight)+(document.documentElement.clientHeight ? document.documentElement.clientHeight : document.body.clientHeight)+(ignoreMe = document.documentElement.scrollTop ? document.documentElement.scrollTop : document.body.scrollTop))+'px');
+
+</style>
+<div id="footer"><a href="http://fasta.bioch.virginia.edu/fasta_www2/fasta_www.cgi#" onclick="show_hide_class(&#39;align_class&#39;); return false">[show/hide all alignments]</a></div>
+
+# ssearch36 -p -q -w 80 -m 9I -m 6 -m 9I -m 6 -f -10 -V "!./annot/ann_feats2ipr.pl --neg --acc_comment" -S -g -2 -E 5 TMP.q T<pre>SSEARCH performs a Smith-Waterman search
+ version 36.3.8e Sep, 2016(preload9)
+Please cite:
+ T. F. Smith and M. S. Waterman, (1981) J. Mol. Biol. 147:195-197; 
+ W.R. Pearson (1991) Genomics 11:635-650
+
+Query: TMP.q
+  1&gt;&gt;&gt;sp|P04637|P53_HUMAN Cellular tumor antigen p53 OS=Homo sapiens GN=TP53 PE=1 SV=4 - 393 aa
+Library: Shuffled SwissProt (550K)
+  198069095 residues in 553474 sequences
+</pre>
+<pre>Statistics:  Expectation_n fit: rho(ln(x))= 7.1492+/-0.000197; mu= 5.2142+/- 0.011
+ mean_var=60.4210+/-11.992, 0's: 84 Z-trim(131.3): 123  B-trim: 0 in 0/64
+ Lambda= 0.164999
+ statistics sampled from 60000 (193039) to 552002 sequences
+Algorithm: Smith-Waterman (SSE2, Michael Farrar 2006) (7.2 Nov 2010)
+Parameters: BL50 matrix (15:-5)xS, open/ext: -10/-2
+ Scan time: 20.500
+<pre>Annotation symbols:
+ = : active site
+ * : phosphorylation
+ # : binding site
+ ^ : site
+ ! : metal binding
+</pre><hr>
+<pre>The best scores are:                                           s-w bits <font color="darkred">E(553474)</font> %_id  %_sim  alen
+sp|shO60393|NOBOX_HUMAN_shuff Homeobox protein NOBOX OS ( 691)  158 44.1 <font color="darkred"> 0.0078</font> 0.238 0.458  345 <a href="http://fasta.bioch.virginia.edu/fasta_www2/fasta_www.cgi#sp|shO60393">align</a> 
+sp|shQ0VG99|MESP2_HUMAN_shuff Mesoderm posterior protei ( 397)  144 40.9 <font color="darkred">  0.041</font> 0.266 0.463  188 <a href="http://fasta.bioch.virginia.edu/fasta_www2/fasta_www.cgi#sp|shQ0VG99">align</a> 
+sp|shQ5G268|NETR_NOMLE_shuff Neurotrypsin OS=Nomascus l ( 875)  123 35.7 <font color="darkred">    3.3</font> 0.257 0.537  136 <a href="http://fasta.bioch.virginia.edu/fasta_www2/fasta_www.cgi#sp|shQ5G268">align</a> 
+sp|shQ8CHH5|GSC1L_MOUSE_shuff GLTSCR1-like protein OS=M (1074)  124 35.9 <font color="darkred">    3.6</font> 0.241 0.473  319 <a href="http://fasta.bioch.virginia.edu/fasta_www2/fasta_www.cgi#sp|shQ8CHH5">align</a> 
+sp|shQ9ERZ0|HEMGN_MOUSE_shuff Hemogen OS=Mus musculus G ( 503)  118 34.7 <font color="darkred">      4</font> 0.283 0.543  138 <a href="http://fasta.bioch.virginia.edu/fasta_www2/fasta_www.cgi#sp|shQ9ERZ0">align</a> 
+sp|shP9WKV8|Y477_MYCTO_shuff Uncharacterized protein MT ( 148)  109 32.9 <font color="darkred">    4.1</font> 0.341 0.553   85 <a href="http://fasta.bioch.virginia.edu/fasta_www2/fasta_www.cgi#sp|shP9WKV8">align</a> 
+sp|shQ7TNF8|RIMB1_MOUSE_shuff Peripheral-type benzodiaz (1846)  126 36.3 <font color="darkred">    4.9</font> 0.294 0.516  126 <a href="http://fasta.bioch.virginia.edu/fasta_www2/fasta_www.cgi#sp|shQ7TNF8">align</a> 
+</pre><hr>
+
+&gt;&gt;&gt;sp|P04637|P53_HUMAN, 393 aa vs T library
+
+<a name="sp|shO60393"></a><pre><a name="sp|shO60393">&gt;&gt;sp|shO60393|NOBOX_HUMAN_shuff Homeobox protein NOBOX OS=Homo sapiens GN=NO  (691 aa)
+ s-w opt: 158  Z-score: 186.4  bits: 44.1 <font color="darkred">E(553474): 0.0078</font>
+Smith-Waterman score: 158; 23.8% identity (45.8% similar) in 345 aa overlap (4-321:211-546)
+<!-- LINK_START sp|shO60393 --></a><a href="http://fasta.bioch.virginia.edu/fasta_www2/seq_info.cgi?db=Protein&amp;cmd=Search&amp;term=shO60393&amp;doptcmdl=DocSum">Sequence Lookup</a>&nbsp;&nbsp;<a href="http://fasta.bioch.virginia.edu/fasta_www2/fasta_www.cgi?rm=search&amp;query=shO60393&amp;q_type=acc&amp;db=Protein&amp;lib=T&amp;pgm=sw&amp;start=211&amp;stop=546&amp;n1=691&amp;o_pgm=sw">Re-search database</a>&nbsp;&nbsp;<a href="http://fasta.bioch.virginia.edu/fasta_www2/fasta_www.cgi?rm=select&amp;query=shO60393&amp;q_type=acc&amp;db=Protein&amp;lib=T&amp;pgm=sw&amp;start=211&amp;stop=546&amp;n1=691&amp;o_pgm=sw">General re-search</a>
+<object type="image/svg+xml" data="./SSEARCH results_files/plot_domain6t.cgi" width="660" height="76"></object><a href="http://fasta.bioch.virginia.edu/fasta_www2/plot_domain6t.cgi?pgm=sw&amp;q_name=sp|P04637|P53_HUMAN&amp;q_cstart=1&amp;q_cstop=393&amp;q_astart=4&amp;q_astop=321&amp;l_name=shO60393&amp;l_cstart=1&amp;l_cstop=691&amp;l_astart=211&amp;l_astop=546&amp;regions=&amp;doms=&amp;l_descr=%3E%3Esp%7CshO60393%7CNOBOX_HUMAN_shuff%20Homeobox%20protein%20NOBOX%20OS%3DHomo%20sapiens%20GN%3DNO%20%20%28691%20aa%29&amp;hscores=Smith-Waterman%20score%3A%20158%3B%2023.8%25%20identity%20%2845.8%25%20similar%29%20in%20345%20aa%20overlap%20%284-321%3A211-546%29%0A&amp;mag=1.5&amp;no_embed=1" target="svg_win">[Domains]</a>
+
+
+<!-- LINK_STOP --><a id="sp|shO60393_l" href="http://fasta.bioch.virginia.edu/fasta_www2/fasta_www.cgi#sp|shO60393" onclick="show_hide(&#39;sp|shO60393_a&#39;); return false">[alignment]</a>
+<div id="sp|shO60393_a" class="align_class" style="display: none;">                                                     10        20        30        40            50        60         70       
+sp|P04                                      MEEPQSDPS-VEPPLSQETFSDLWKLLPENNVLSPLPSQAMDD----LMLSPDDIEQWFTEDPGPDEAPRM-PEAAPPVAPAP
+                                               :  ::. .::: .   : :    ::.     :.: . ..:    : :::    . :   ::  :: ..  ::. :  :  
+sp|shO LEGPPPLPGPEIQQFESLELDPDSKDEYDHMSSFSPSLLLPFFDPTPMEPPPGPFPFLDA---LPRR---LPVPVSEFEDTDPQLTLSPLPPPMPFLSRPGLAEAEKLGAEAGGPELPYF
+              180       190       200       210       220       230             240       250       260       270       280    
+
+        80        90            100       110       120         130       140          150         160       170       180     
+sp|P04 AAPTPAAPAPAPSWPLSS-----SVPSQKTYQGSYGFRLGFLHSGTAKSVTCTY--SPALNKMFCQLAKTCPVQL---WVDSTPPP--GTRVRAMAIYKQSQHMTEVVRRCPHHERCSDS
+       . :      :.:. : ::     ..:.. .   . : .    . :. .: .:.   .:  :..  . :    . :   : .:. ::  :     :.  ..... ..     :  ..   :
+sp|shO TLPPKLQQQPSPAPPQSSMAANPGLPKKPAPPQTKGVHDD--KRGAPNSDNCALQLNPLRNQLSSHHATREGLLLPPSWGSSAAPPTMGPSKLDMGPAEKGEKPAKNNALWPASDQIPMS
+          290       300       310       320         330       340       350       360       370       380       390       400  
+
+          190       200       210       220       230       240       250       260         270       280         290          
+sp|P04 -DGLAPPQHLIRVEGNLRVEYLDDRNTFRHSVVVPYEPPEVGSDCTTIHYNYMCNSSCMGGMNRRPILTIITLEDSSG--NLLGRNSFEVRVCACPGR--DRRTEEENLRKKGE--PHHE
+         :   ::     .. :  :     ..   :  . .  ::. ..::  . : . .    . . ::      . : :..  .::  ...:. .:  ::   :.: .     . :   : : 
+sp|shO IGGTNCPQAEEAPKAALLQEDAPKSESPSSSDPLTHPEPEIQGSCTEAQANSFQERRAWAVVWRRKSWQPEAPEHSKSCPTLLILQDLEA-ACKLPGSVPDERPKGTAAGSTGANPPGHP
+            410       420       430       440       450       460       470       480       490        500       510       520 
+
+      300         310       320       330       340       350       360       370       380       390                          
+sp|P04 LPPGSTKR--ALPNNTSSSPQPKKKPLDGEYFTLQIRGRERFEMFRELNEALELKDAQAGKEPGGSRAHSSHLKSKKGQSTSRHKKLMFKTEGPDSD                       
+            . :  : :..   ::.:.:.                                                                                               
+sp|shO ANGCRVARGSARPTDRRPSPRPSKQTRALHQSSVAPRTEPTGPQLDVQATTTRLALDDLTEGWTMLPDSLLSPMPKSLAHQTGDHMDSLVGGWEGSTLLAGVAETSLGPIGSYCCPDTWP
+             530       540       550       560       570       580       590       600       610       620       630       640 
+</div></pre><hr><a name="sp|shQ0VG99"></a><pre><a name="sp|shQ0VG99">&gt;&gt;sp|shQ0VG99|MESP2_HUMAN_shuff Mesoderm posterior protein 2 OS=Homo sapiens  (397 aa)
+ s-w opt: 144  Z-score: 173.5  bits: 40.9 <font color="darkred">E(553474): 0.041</font>
+Smith-Waterman score: 144; 26.6% identity (46.3% similar) in 188 aa overlap (12-194:101-278)
+<!-- LINK_START sp|shQ0VG99 --></a><a href="http://fasta.bioch.virginia.edu/fasta_www2/seq_info.cgi?db=Protein&amp;cmd=Search&amp;term=shQ0VG99&amp;doptcmdl=DocSum">Sequence Lookup</a>&nbsp;&nbsp;<a href="http://fasta.bioch.virginia.edu/fasta_www2/fasta_www.cgi?rm=search&amp;query=shQ0VG99&amp;q_type=acc&amp;db=Protein&amp;lib=T&amp;pgm=sw&amp;start=101&amp;stop=278&amp;n1=397&amp;o_pgm=sw">Re-search database</a>&nbsp;&nbsp;<a href="http://fasta.bioch.virginia.edu/fasta_www2/fasta_www.cgi?rm=select&amp;query=shQ0VG99&amp;q_type=acc&amp;db=Protein&amp;lib=T&amp;pgm=sw&amp;start=101&amp;stop=278&amp;n1=397&amp;o_pgm=sw">General re-search</a>
+<object type="image/svg+xml" data="./SSEARCH results_files/plot_domain6t(1).cgi" width="660" height="76"></object><a href="http://fasta.bioch.virginia.edu/fasta_www2/plot_domain6t.cgi?pgm=sw&amp;q_name=sp|P04637|P53_HUMAN&amp;q_cstart=1&amp;q_cstop=393&amp;q_astart=12&amp;q_astop=194&amp;l_name=shQ0VG99&amp;l_cstart=1&amp;l_cstop=397&amp;l_astart=101&amp;l_astop=278&amp;regions=&amp;doms=&amp;l_descr=%3E%3Esp%7CshQ0VG99%7CMESP2_HUMAN_shuff%20Mesoderm%20posterior%20protein%202%20OS%3DHomo%20sapiens%20%20%28397%20aa%29&amp;hscores=Smith-Waterman%20score%3A%20158%3B%2023.8%25%20identity%20%2845.8%25%20similar%29%20in%20345%20aa%20overlap%20%284-321%3A211-546%29%0ASmith-Waterman%20score%3A%20144%3B%2026.6%25%20identity%20%2846.3%25%20similar%29%20in%20188%20aa%20overlap%20%2812-194%3A101-278%29%0A&amp;mag=1.5&amp;no_embed=1" target="svg_win">[Domains]</a>
+
+
+<!-- LINK_STOP --><a id="sp|shQ0VG99_l" href="http://fasta.bioch.virginia.edu/fasta_www2/fasta_www.cgi#sp|shQ0VG99" onclick="show_hide(&#39;sp|shQ0VG99_a&#39;); return false">[alignment]</a>
+<div id="sp|shQ0VG99_a" class="align_class" style="display: none;">                                            10        20        30          40        50        60        70        80         
+sp|P04                              MEEPQSDPSVEPPLSQETFSDLWKLLPENNVLSPLP--SQAMDDLMLSPDDIEQWFTEDPGPDEAPRMPEAAPPVAPAPAAPTPAAPAPAP
+                                               :: ::  :  : .    .  ::  :    : . ..:: .:  .:: :     :   .:. :  . :. :.  :: :: .:
+sp|shQ GPsLdppscQgRpgascQPcqPAVqGREAgSWgSARLVgLPPESQAGFF-LCSAQSSGRSLSGPPWFHAAPQMILLSHQDQGRWFEEY----EDLGIPQLALSTEPTNAVWRPAQPATSP
+               70        80        90       100        110       120       130       140           150       160       170     
+
+      90       100       110       120       130         140       150       160        170       180       190       200      
+sp|P04 SWPLSSSVPSQKTYQGSYGFRLGFLHSGTAKSVTCTYSPALNKMF-CQLAK-TCPVQLWVDSTPPPGTRVRAMA-IYKQSQHMTEVVRRCPHHERCSDSDGLAPPQHLIRVEGNLRVEYL
+         : .: .:..   .     :  ::   . :      . . .  . ::: .  :  .  ... :::.::.  .:  ::    . ...    .   :   :   : .::            
+sp|shQ PPPEGSLAPASLQLR-----RHLFLTPPSDKPPPIYQATTHDWPYPCQLPQGPCLHRQLTSAGPPPSTRLSHLAEAYKGIGVLIRLINSSEQGGVCWAVDPSRPAEHLEARRMARRKSTQ
+         180       190            200       210       220       230       240       250       260       270       280       290
+
+        210       220       230       240       250       260       270       280      
+sp|P04 DDRNTFRHSVVVPYEPPEVGSDCTTIHYNYMCNSSCMGGMNRRPILTIITLEDSSGNLLGRNSFEVRVCACPGRDRRTEE
+                                                                                       
+sp|shQ ARSEgQLRRRQGQREPDSASWSLCGELgrtargtpaetraaaaasrpEAQCPPLgTqEAGACGRPDQTPSPGTQQCWDST
+              300       310       320       330       340       350       360       370
+</div></pre><hr><a name="sp|shQ5G268"></a><pre><a name="sp|shQ5G268">&gt;&gt;sp|shQ5G268|NETR_NOMLE_shuff Neurotrypsin OS=Nomascus leucogenys GN=PRSS12  (875 aa)
+ s-w opt: 123  Z-score: 139.2  bits: 35.7 <font color="darkred">E(553474):  3.3</font>
+Smith-Waterman score: 123; 25.7% identity (53.7% similar) in 136 aa overlap (238-364:289-412)
+<!-- LINK_START sp|shQ5G268 --></a><a href="http://fasta.bioch.virginia.edu/fasta_www2/seq_info.cgi?db=Protein&amp;cmd=Search&amp;term=shQ5G268&amp;doptcmdl=DocSum">Sequence Lookup</a>&nbsp;&nbsp;<a href="http://fasta.bioch.virginia.edu/fasta_www2/fasta_www.cgi?rm=search&amp;query=shQ5G268&amp;q_type=acc&amp;db=Protein&amp;lib=T&amp;pgm=sw&amp;start=289&amp;stop=412&amp;n1=875&amp;o_pgm=sw">Re-search database</a>&nbsp;&nbsp;<a href="http://fasta.bioch.virginia.edu/fasta_www2/fasta_www.cgi?rm=select&amp;query=shQ5G268&amp;q_type=acc&amp;db=Protein&amp;lib=T&amp;pgm=sw&amp;start=289&amp;stop=412&amp;n1=875&amp;o_pgm=sw">General re-search</a>
+<object type="image/svg+xml" data="./SSEARCH results_files/plot_domain6t(2).cgi" width="660" height="76"></object><a href="http://fasta.bioch.virginia.edu/fasta_www2/plot_domain6t.cgi?pgm=sw&amp;q_name=sp|P04637|P53_HUMAN&amp;q_cstart=1&amp;q_cstop=393&amp;q_astart=238&amp;q_astop=364&amp;l_name=shQ5G268&amp;l_cstart=1&amp;l_cstop=875&amp;l_astart=289&amp;l_astop=412&amp;regions=&amp;doms=&amp;l_descr=%3E%3Esp%7CshQ5G268%7CNETR_NOMLE_shuff%20Neurotrypsin%20OS%3DNomascus%20leucogenys%20GN%3DPRSS12%20%20%28875%20aa%29&amp;hscores=Smith-Waterman%20score%3A%20158%3B%2023.8%25%20identity%20%2845.8%25%20similar%29%20in%20345%20aa%20overlap%20%284-321%3A211-546%29%0ASmith-Waterman%20score%3A%20144%3B%2026.6%25%20identity%20%2846.3%25%20similar%29%20in%20188%20aa%20overlap%20%2812-194%3A101-278%29%0ASmith-Waterman%20score%3A%20123%3B%2025.7%25%20identity%20%2853.7%25%20similar%29%20in%20136%20aa%20overlap%20%28238-364%3A289-412%29%0A&amp;mag=1.5&amp;no_embed=1" target="svg_win">[Domains]</a>
+
+
+<!-- LINK_STOP --><a id="sp|shQ5G268_l" href="http://fasta.bioch.virginia.edu/fasta_www2/fasta_www.cgi#sp|shQ5G268" onclick="show_hide(&#39;sp|shQ5G268_a&#39;); return false">[alignment]</a>
+<div id="sp|shQ5G268_a" class="align_class" style="display: none;">       200       210       220       230        240       250        260       270       280            290       300       310
+sp|P04 EGNLRVEYLDDRNTFRHSVVVPYEPPEVGSDCTTIHYNYMCN-SSCMGGMNRRPI-LTIITLEDSSGNLLGRNSFEVRVCACPGRDRRTE-----EENLRKKGEPHHELPPGSTKRALPN
+                                               :. :  .::.. .:    ...:  : :.. :          :: :.::       .:.  ..:. .:. :  ...  :: 
+sp|shQ TVADCIVWQDDGACGKENWCTHHGVSDGSKESRLPIGAHPCGFSEVVGGYSLEPCGWEVVSL--SRGGMDG----------CPQRQRRRSCDCFWHEDRLSQGHANHRQPSFQARCRLPW
+      250       260       270       280       290       300       310                   320       330       340       350      
+
+              320        330       340       350        360       370       380       390                                      
+sp|P04 NTSSSPQPKKKPLD-GEYFTLQIRGRERFEMFRELNEALELKDAQAGK-EPGGSRAHSSHLKSKKGQSTSRHKKLMFKTEGPDSD                                   
+       ... .:.:     : :     .. :: : ..: .:: .   .:. .:.  :: ..:                                                                
+sp|shQ GSNRAPEPLFASWDEGVLCPTRVFGRPRPHVFDHLNTSPLSHDSAGGRWYPGDDKACRPWVDGFCLTAKVALSGFTWHSLARCCYWSGNPPVTFSRIRLCGIQLIPVEVCKNSADTRLDI
+        360       370       380       390       400       410       420       430       440       450       460       470      
+</div></pre><hr><a name="sp|shQ8CHH5"></a><pre><a name="sp|shQ8CHH5">&gt;&gt;sp|shQ8CHH5|GSC1L_MOUSE_shuff GLTSCR1-like protein OS=Mus musculus GN=Glts  (1074 aa)
+ s-w opt: 124  Z-score: 138.6  bits: 35.9 <font color="darkred">E(553474):  3.6</font>
+Smith-Waterman score: 137; 24.1% identity (47.3% similar) in 319 aa overlap (27-336:523-809)
+<!-- LINK_START sp|shQ8CHH5 --></a><a href="http://fasta.bioch.virginia.edu/fasta_www2/seq_info.cgi?db=Protein&amp;cmd=Search&amp;term=shQ8CHH5&amp;doptcmdl=DocSum">Sequence Lookup</a>&nbsp;&nbsp;<a href="http://fasta.bioch.virginia.edu/fasta_www2/fasta_www.cgi?rm=search&amp;query=shQ8CHH5&amp;q_type=acc&amp;db=Protein&amp;lib=T&amp;pgm=sw&amp;start=523&amp;stop=809&amp;n1=1074&amp;o_pgm=sw">Re-search database</a>&nbsp;&nbsp;<a href="http://fasta.bioch.virginia.edu/fasta_www2/fasta_www.cgi?rm=select&amp;query=shQ8CHH5&amp;q_type=acc&amp;db=Protein&amp;lib=T&amp;pgm=sw&amp;start=523&amp;stop=809&amp;n1=1074&amp;o_pgm=sw">General re-search</a>
+<object type="image/svg+xml" data="./SSEARCH results_files/plot_domain6t(3).cgi" width="660" height="76"></object><a href="http://fasta.bioch.virginia.edu/fasta_www2/plot_domain6t.cgi?pgm=sw&amp;q_name=sp|P04637|P53_HUMAN&amp;q_cstart=1&amp;q_cstop=393&amp;q_astart=27&amp;q_astop=336&amp;l_name=shQ8CHH5&amp;l_cstart=1&amp;l_cstop=1074&amp;l_astart=523&amp;l_astop=809&amp;regions=&amp;doms=&amp;l_descr=%3E%3Esp%7CshQ8CHH5%7CGSC1L_MOUSE_shuff%20GLTSCR1-like%20protein%20OS%3DMus%20musculus%20GN%3DGlts%20%20%281074%20aa%29&amp;hscores=Smith-Waterman%20score%3A%20158%3B%2023.8%25%20identity%20%2845.8%25%20similar%29%20in%20345%20aa%20overlap%20%284-321%3A211-546%29%0ASmith-Waterman%20score%3A%20144%3B%2026.6%25%20identity%20%2846.3%25%20similar%29%20in%20188%20aa%20overlap%20%2812-194%3A101-278%29%0ASmith-Waterman%20score%3A%20123%3B%2025.7%25%20identity%20%2853.7%25%20similar%29%20in%20136%20aa%20overlap%20%28238-364%3A289-412%29%0ASmith-Waterman%20score%3A%20137%3B%2024.1%25%20identity%20%2847.3%25%20similar%29%20in%20319%20aa%20overlap%20%2827-336%3A523-809%29%0A&amp;mag=1.5&amp;no_embed=1" target="svg_win">[Domains]</a>
+
+
+<!-- LINK_STOP --><a id="sp|shQ8CHH5_l" href="http://fasta.bioch.virginia.edu/fasta_www2/fasta_www.cgi#sp|shQ8CHH5" onclick="show_hide(&#39;sp|shQ8CHH5_a&#39;); return false">[alignment]</a>
+<div id="sp|shQ8CHH5_a" class="align_class" style="display: none;">                             10        20        30        40        50        60        70        80        90            100 
+sp|P04               MEEPQSDPSVEPPLSQETFSDLWKLLPENNVLSPLPSQAMDDLMLSPDDIEQWFTEDPGPDEAPRMPEAAPPVAPAPAAPTPAAPAPAPS-----WPLSSSVPSQK
+                                               :   .:.: :: :     ::::.  . ..::   . .:   .: :  .::  .:  :   :: .       :::..::  
+sp|shQ QQSEGTLLSNQGAQHQVIQGLYNAHGQQSNNQVTTHSGSSPGVAALQP-PSTAE----LSPDEQFDLLSEDL-ESLSPTASDADPSGSPALFSPMFADAKPAGGGIQTLMDLSSTLPSlA
+            490       500       510       520       530            540        550       560       570       580       590      
+
+             110       120       130       140       150       160       170       180       190       200       210       220 
+sp|P04 TYQGSYGFRLGFLHSGTAKSVTCTYSPALNKMFCQLAKTCPVQLWVDSTPPPGTRVRAMAIYKQSQHMTEVVRRCPHHERCSDSDGLAPPQHLIRVEGNLRVEYLDDRNTFRHSVVVPYE
+           .    :       . .. :     :..   :::     ..   . :  :    :..   :..   .:. :   : . :. :. .::    :.. . :      :   .::   : .
+sp|shQ ddLdgQdPll-------sdNiMcddVDDLEE--TQLATREENEVQFPAKPDLGRFRVALSDSLQAEDSGKVMLR---HLHASSPDSEGPPVSTSRLQDSQR------RAKRHHSQ--PGQ
+        600              610       620         630       640       650       660          670       680             690        
+
+             230       240       250         260       270       280       290       300       310         320       330       
+sp|P04 PPEVGSDCTTIHYNYMCNSSCMGGMNRRPILTI--ITLEDSSGNLLGRNSFEVRVCACPGRDRRTEEENLRKKGEPHHELPPGSTKRALPNNT--SSSPQPKKKPLDGEYFTLQIRGRER
+         .. :  . .. : . . :  :. .  :.  .   :.  :. . :  .. :... . :: . . .: . . ::   :    .: .:.  .:.  :.:: : :.:  ::.   . ::.. 
+sp|shQ TNQIMSMPNGLK-NIISDLSS-GNGHVVPLAQVQPTTIFASGLSKLVDDGSELQALGPPGVSLKIREISNEAKG---HTSGVSSLSRVHASNSVSSTSPLPVKRP-GGEFGLGDRRGKQY
+        700        710        720       730       740       750       760          770       780       790        800       810
+
+       340       350       360       370       
+sp|P04 FEMFRELNEALELKDAQAGKEPGGSRAHSSHLKSKKGQST
+                                               
+sp|shQ PVKDMVSFGPHIHHQVVQGSVTQGRSVKSRGRGSAHEPCK
+              820       830       840       850
+</div></pre><hr><a name="sp|shQ9ERZ0"></a><pre><a name="sp|shQ9ERZ0">&gt;&gt;sp|shQ9ERZ0|HEMGN_MOUSE_shuff Hemogen OS=Mus musculus GN=Hemgn PE=1 SV=1    (503 aa)
+ s-w opt: 118  Z-score: 137.9  bits: 34.7 <font color="darkred">E(553474):    4</font>
+Smith-Waterman score: 118; 28.3% identity (54.3% similar) in 138 aa overlap (56-188:283-405)
+<!-- LINK_START sp|shQ9ERZ0 --></a><a href="http://fasta.bioch.virginia.edu/fasta_www2/seq_info.cgi?db=Protein&amp;cmd=Search&amp;term=shQ9ERZ0&amp;doptcmdl=DocSum">Sequence Lookup</a>&nbsp;&nbsp;<a href="http://fasta.bioch.virginia.edu/fasta_www2/fasta_www.cgi?rm=search&amp;query=shQ9ERZ0&amp;q_type=acc&amp;db=Protein&amp;lib=T&amp;pgm=sw&amp;start=283&amp;stop=405&amp;n1=503&amp;o_pgm=sw">Re-search database</a>&nbsp;&nbsp;<a href="http://fasta.bioch.virginia.edu/fasta_www2/fasta_www.cgi?rm=select&amp;query=shQ9ERZ0&amp;q_type=acc&amp;db=Protein&amp;lib=T&amp;pgm=sw&amp;start=283&amp;stop=405&amp;n1=503&amp;o_pgm=sw">General re-search</a>
+<object type="image/svg+xml" data="./SSEARCH results_files/plot_domain6t(4).cgi" width="660" height="76"></object><a href="http://fasta.bioch.virginia.edu/fasta_www2/plot_domain6t.cgi?pgm=sw&amp;q_name=sp|P04637|P53_HUMAN&amp;q_cstart=1&amp;q_cstop=393&amp;q_astart=56&amp;q_astop=188&amp;l_name=shQ9ERZ0&amp;l_cstart=1&amp;l_cstop=503&amp;l_astart=283&amp;l_astop=405&amp;regions=&amp;doms=&amp;l_descr=%3E%3Esp%7CshQ9ERZ0%7CHEMGN_MOUSE_shuff%20Hemogen%20OS%3DMus%20musculus%20GN%3DHemgn%20PE%3D1%20SV%3D1%20%20%20%20%28503%20aa%29&amp;hscores=Smith-Waterman%20score%3A%20158%3B%2023.8%25%20identity%20%2845.8%25%20similar%29%20in%20345%20aa%20overlap%20%284-321%3A211-546%29%0ASmith-Waterman%20score%3A%20144%3B%2026.6%25%20identity%20%2846.3%25%20similar%29%20in%20188%20aa%20overlap%20%2812-194%3A101-278%29%0ASmith-Waterman%20score%3A%20123%3B%2025.7%25%20identity%20%2853.7%25%20similar%29%20in%20136%20aa%20overlap%20%28238-364%3A289-412%29%0ASmith-Waterman%20score%3A%20137%3B%2024.1%25%20identity%20%2847.3%25%20similar%29%20in%20319%20aa%20overlap%20%2827-336%3A523-809%29%0ASmith-Waterman%20score%3A%20118%3B%2028.3%25%20identity%20%2854.3%25%20similar%29%20in%20138%20aa%20overlap%20%2856-188%3A283-405%29%0A&amp;mag=1.5&amp;no_embed=1" target="svg_win">[Domains]</a>
+
+
+<!-- LINK_STOP --><a id="sp|shQ9ERZ0_l" href="http://fasta.bioch.virginia.edu/fasta_www2/fasta_www.cgi#sp|shQ9ERZ0" onclick="show_hide(&#39;sp|shQ9ERZ0_a&#39;); return false">[alignment]</a>
+<div id="sp|shQ9ERZ0_a" class="align_class" style="display: none;">          20        30        40        50        60        70        80         90       100          110       120       130 
+sp|P04 QETFSDLWKLLPENNVLSPLPSQAMDDLMLSPDDIEQWFTEDPGPDEAPRMPEAAPPVAPAPAAP-TPAAPAPAPSWPLSSSVPSQKTYQG---SYGFRLGFLHSGTAKSVTCTYSPALN
+                                               :: .:  .::  .:.  ..:.:. : ::    :  :  ..... ::        . : ..  :  ..: ::    .:  .
+sp|shQ VLASQVEMSTPGSAPDPHLPLQRAGPMRDKEGHKMPPMAQEDHSP--VPRELKAVKTMVPTPVPPETPYCQQPFNSEMVAAQIQSQLDCPHCVMAEGTKMT-LPEAAAVSVP---QPHDE
+            250       260       270       280         290       300       310       320       330       340        350         
+
+             140       150       160       170       180        190       200       210       220       230       240       250
+sp|P04 KMFCQLAKTCPVQLWVDSTPPPGTRVRAMAIYKQSQHMTEVVRRCPHHER-CSDSDGLAPPQHLIRVEGNLRVEYLDDRNTFRHSVVVPYEPPEVGSDCTTIHYNYMCNSSCMGGMNRRP
+       :. :.:  :::      .. ::  . . :.   .:::..:   . : :.: : .:...                                                              
+sp|shQ KQSCML--TCP------KSQPPCHQNEEMVHTTSSQHIAEQ-SQIPTHQRNCLNSQSIGGEYCQTPSPEAAPSTSHGVQAKCETEVERTSAVESRQRGWRKKQAETQGAEQLLLFAWGCI
+        360               370       380        390       400       410       420       430       440       450       460       
+</div></pre><hr><a name="sp|shP9WKV8"></a><pre><a name="sp|shP9WKV8">&gt;&gt;sp|shP9WKV8|Y477_MYCTO_shuff Uncharacterized protein MT0495 OS=Mycobacteri  (148 aa)
+ s-w opt: 109  Z-score: 137.6  bits: 32.9 <font color="darkred">E(553474):  4.1</font>
+Smith-Waterman score: 110; 34.1% identity (55.3% similar) in 85 aa overlap (28-103:41-122)
+<!-- LINK_START sp|shP9WKV8 --></a><a href="http://fasta.bioch.virginia.edu/fasta_www2/seq_info.cgi?db=Protein&amp;cmd=Search&amp;term=shP9WKV8&amp;doptcmdl=DocSum">Sequence Lookup</a>&nbsp;&nbsp;<a href="http://fasta.bioch.virginia.edu/fasta_www2/fasta_www.cgi?rm=search&amp;query=shP9WKV8&amp;q_type=acc&amp;db=Protein&amp;lib=T&amp;pgm=sw&amp;start=41&amp;stop=122&amp;n1=148&amp;o_pgm=sw">Re-search database</a>&nbsp;&nbsp;<a href="http://fasta.bioch.virginia.edu/fasta_www2/fasta_www.cgi?rm=select&amp;query=shP9WKV8&amp;q_type=acc&amp;db=Protein&amp;lib=T&amp;pgm=sw&amp;start=41&amp;stop=122&amp;n1=148&amp;o_pgm=sw">General re-search</a>
+<object type="image/svg+xml" data="./SSEARCH results_files/plot_domain6t(5).cgi" width="660" height="76"></object><a href="http://fasta.bioch.virginia.edu/fasta_www2/plot_domain6t.cgi?pgm=sw&amp;q_name=sp|P04637|P53_HUMAN&amp;q_cstart=1&amp;q_cstop=393&amp;q_astart=28&amp;q_astop=103&amp;l_name=shP9WKV8&amp;l_cstart=1&amp;l_cstop=148&amp;l_astart=41&amp;l_astop=122&amp;regions=&amp;doms=&amp;l_descr=%3E%3Esp%7CshP9WKV8%7CY477_MYCTO_shuff%20Uncharacterized%20protein%20MT0495%20OS%3DMycobacteri%20%20%28148%20aa%29&amp;hscores=Smith-Waterman%20score%3A%20158%3B%2023.8%25%20identity%20%2845.8%25%20similar%29%20in%20345%20aa%20overlap%20%284-321%3A211-546%29%0ASmith-Waterman%20score%3A%20144%3B%2026.6%25%20identity%20%2846.3%25%20similar%29%20in%20188%20aa%20overlap%20%2812-194%3A101-278%29%0ASmith-Waterman%20score%3A%20123%3B%2025.7%25%20identity%20%2853.7%25%20similar%29%20in%20136%20aa%20overlap%20%28238-364%3A289-412%29%0ASmith-Waterman%20score%3A%20137%3B%2024.1%25%20identity%20%2847.3%25%20similar%29%20in%20319%20aa%20overlap%20%2827-336%3A523-809%29%0ASmith-Waterman%20score%3A%20118%3B%2028.3%25%20identity%20%2854.3%25%20similar%29%20in%20138%20aa%20overlap%20%2856-188%3A283-405%29%0ASmith-Waterman%20score%3A%20110%3B%2034.1%25%20identity%20%2855.3%25%20similar%29%20in%2085%20aa%20overlap%20%2828-103%3A41-122%29%0A&amp;mag=1.5&amp;no_embed=1" target="svg_win">[Domains]</a>
+
+
+<!-- LINK_STOP --><a id="sp|shP9WKV8_l" href="http://fasta.bioch.virginia.edu/fasta_www2/fasta_www.cgi#sp|shP9WKV8" onclick="show_hide(&#39;sp|shP9WKV8_a&#39;); return false">[alignment]</a>
+<div id="sp|shP9WKV8_a" class="align_class" style="display: none;">                            10        20        30        40        50        60           70          80           90         
+sp|P04              MEEPQSDPSVEPPLSQETFSDLWKLLPENNVLSPLPSQAMDDLMLSPDDIEQWFTEDPGPD---EAPRMPEAAPPVAPAP--AAPTPAAPA---PAPSW-PLSSSVP
+                                               :.: :.   : :  .:..  .:   : .:.   :   ..::. :  :: . ::  :: .::. .   : :.: :.  :  
+sp|shP aRLSTGAVMSRVGQaaRRPYSvRATalEPdGLMwaeaaDAEDNRLGWCSSPA--ELVVPMNDGLTWVSEQALSDPSWHSPRLSEE-PPFGSAPDGAAEaPAGYGDGQPEPNWAPFHISCA
+               10        20        30        40        50          60        70        80         90       100       110       
+
+      100       110       120       130       140       150       160       170       180       190       200       210        
+sp|P04 SQKTYQGSYGFRLGFLHSGTAKSVTCTYSPALNKMFCQLAKTCPVQLWVDSTPPPGTRVRAMAIYKQSQHMTEVVRRCPHHERCSDSDGLAPPQHLIRVEGNLRVEYLDDRNTFRHSVVV
+       .:: :                                                                                                                   
+sp|shP GQKEYWIQPQRvalvssvvvKaaMgasallv                                                                                         
+       120       130       140                                                                                                 
+</div></pre><hr><a name="sp|shQ7TNF8"></a><pre><a name="sp|shQ7TNF8">&gt;&gt;sp|shQ7TNF8|RIMB1_MOUSE_shuff Peripheral-type benzodiazepine receptor-asso  (1846 aa)
+ s-w opt: 126  Z-score: 136.2  bits: 36.3 <font color="darkred">E(553474):  4.9</font>
+Smith-Waterman score: 126; 29.4% identity (51.6% similar) in 126 aa overlap (285-393:368-493)
+<!-- LINK_START sp|shQ7TNF8 --></a><a href="http://fasta.bioch.virginia.edu/fasta_www2/seq_info.cgi?db=Protein&amp;cmd=Search&amp;term=shQ7TNF8&amp;doptcmdl=DocSum">Sequence Lookup</a>&nbsp;&nbsp;<a href="http://fasta.bioch.virginia.edu/fasta_www2/fasta_www.cgi?rm=search&amp;query=shQ7TNF8&amp;q_type=acc&amp;db=Protein&amp;lib=T&amp;pgm=sw&amp;start=368&amp;stop=493&amp;n1=1846&amp;o_pgm=sw">Re-search database</a>&nbsp;&nbsp;<a href="http://fasta.bioch.virginia.edu/fasta_www2/fasta_www.cgi?rm=select&amp;query=shQ7TNF8&amp;q_type=acc&amp;db=Protein&amp;lib=T&amp;pgm=sw&amp;start=368&amp;stop=493&amp;n1=1846&amp;o_pgm=sw">General re-search</a>
+<object type="image/svg+xml" data="./SSEARCH results_files/plot_domain6t(6).cgi" width="660" height="76"></object><a href="http://fasta.bioch.virginia.edu/fasta_www2/plot_domain6t.cgi?pgm=sw&amp;q_name=sp|P04637|P53_HUMAN&amp;q_cstart=1&amp;q_cstop=393&amp;q_astart=285&amp;q_astop=393&amp;l_name=shQ7TNF8&amp;l_cstart=1&amp;l_cstop=1846&amp;l_astart=368&amp;l_astop=493&amp;regions=&amp;doms=&amp;l_descr=%3E%3Esp%7CshQ7TNF8%7CRIMB1_MOUSE_shuff%20Peripheral-type%20benzodiazepine%20receptor-asso%20%20%281846%20aa%29&amp;hscores=Smith-Waterman%20score%3A%20158%3B%2023.8%25%20identity%20%2845.8%25%20similar%29%20in%20345%20aa%20overlap%20%284-321%3A211-546%29%0ASmith-Waterman%20score%3A%20144%3B%2026.6%25%20identity%20%2846.3%25%20similar%29%20in%20188%20aa%20overlap%20%2812-194%3A101-278%29%0ASmith-Waterman%20score%3A%20123%3B%2025.7%25%20identity%20%2853.7%25%20similar%29%20in%20136%20aa%20overlap%20%28238-364%3A289-412%29%0ASmith-Waterman%20score%3A%20137%3B%2024.1%25%20identity%20%2847.3%25%20similar%29%20in%20319%20aa%20overlap%20%2827-336%3A523-809%29%0ASmith-Waterman%20score%3A%20118%3B%2028.3%25%20identity%20%2854.3%25%20similar%29%20in%20138%20aa%20overlap%20%2856-188%3A283-405%29%0ASmith-Waterman%20score%3A%20110%3B%2034.1%25%20identity%20%2855.3%25%20similar%29%20in%2085%20aa%20overlap%20%2828-103%3A41-122%29%0ASmith-Waterman%20score%3A%20126%3B%2029.4%25%20identity%20%2851.6%25%20similar%29%20in%20126%20aa%20overlap%20%28285-393%3A368-493%29%0A&amp;mag=1.5&amp;no_embed=1" target="svg_win">[Domains]</a>
+
+
+<!-- LINK_STOP --><a id="sp|shQ7TNF8_l" href="http://fasta.bioch.virginia.edu/fasta_www2/fasta_www.cgi#sp|shQ7TNF8" onclick="show_hide(&#39;sp|shQ7TNF8_a&#39;); return false">[alignment]</a>
+<div id="sp|shQ7TNF8_a" class="align_class" style="display: none;">          250       260       270       280       290       300               310        320       330       340               
+sp|P04 GMNRRPILTIITLEDSSGNLLGRNSFEVRVCACPGRDRRTEEENLRKKGEPHHELP------PGSTKRAL--PNNTSSS-PQPKKKPLDGEYFTLQIRGRERFEMFRELNE-------AL
+                                               :.:. :. : :..  :      ::  :: :  :. ..   : :   : .: .   : :.:...:  :.  :       : 
+sp|shQ eQLVeNeIDDeSeAHDLAVLPPSQPPRVQPREPASGETTNEKESDRRPGTPRQSPPSKPSDTPGELKRDLGCPDPSGCCCPCPIPGPQQGSHHLEQARSRQQLEAERQQLEVHYISYQAR
+       330       340       350       360       370       380       390       400       410       420       430       440       
+
+      350        360       370       380       390                                                                             
+sp|P04 ELKDAQA-GKEPGGSRAHSSHLKSKKGQSTSRHKKLMFKTEGPDSD                                                                          
+        : . .: :.: ::  :... :.: .: .  . .   ..  ::: :                                                                          
+sp|shQ PLVSFRAHGSEAGGLLAKKQVLSSDEGLTQRELNPEKISCTGPDPDDESRAFQPKGAPLFVVQEIVGGPNRALTvPsvlADleAeVedlvessVPECDPETTGSGCASEQVQGQMPWITA
+       450       460       470       480       490       500       510       520       530       540       550       560       
+</div></pre><hr><pre>393 residues in 1 query   sequences
+198069095 residues in 553474 library sequences
+ Tcomplib [36.3.8e Sep, 2016(preload9)] (16 proc in memory [0G])
+ start: Wed Mar 22 12:37:35 2017 done: Wed Mar 22 12:37:39 2017
+ Total Scan time: 20.500 Total Display time:  0.050
+
+Function used was SSEARCH [36.3.8e Sep, 2016(preload9)]
+</pre>
+
+
+<hr>
+<center>
+<a href="http://fasta.bioch.virginia.edu/fasta_www2/fasta_www.cgi">Search Databases with FASTA</a> | 
+<a href="http://fasta.bioch.virginia.edu/fasta_www2/fasta_www.cgi?rm=lalign">Find Duplications</a> | 
+<a href="http://fasta.bioch.virginia.edu/fasta_www2/fasta_www.cgi?rm=status">Search Status</a> 
+</center>
+<hr>
+
+
+
+</pre></body></html>
